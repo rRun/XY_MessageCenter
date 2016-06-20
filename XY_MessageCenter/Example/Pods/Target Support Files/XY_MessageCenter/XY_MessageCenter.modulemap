@@ -1,0 +1,6 @@
+framework module XY_MessageCenter {
+  umbrella header "XY_MessageCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

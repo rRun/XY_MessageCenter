@@ -1,0 +1,16 @@
+PODS:
+  - XY_MessageCenter (0.1.0)
+
+DEPENDENCIES:
+  - XY_MessageCenter (from `../`)
+
+EXTERNAL SOURCES:
+  XY_MessageCenter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XY_MessageCenter: cb9e1feb5078ca0c9de3d90bd0f08044190b0967
+
+PODFILE CHECKSUM: 7cc333b1cd8c7a700cd0a6d776ddd56d4c689b9f
+
+COCOAPODS: 1.0.1
