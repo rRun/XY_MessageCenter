@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     XY_MessageCenter，封装了jpush,gcm,推送
                    DESC
 
-  s.homepage     = "http://EXAMPLE/XY_MessageCenter"
+  s.homepage     = "https://github.com/rRun/XY_MessageCenter"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-    s.public_header_files ＝"XY_MessageCenter/XY_MessageCenter/XY_MessageCenter.h"
+    s.public_header_files ="XY_MessageCenter/XY_MessageCenter/XY_MessageCenter.h"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -137,5 +137,5 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
     s.dependency "Firebase/Messaging"
-    s.dependency "XY_JPUSH", :git => ‘https://github.com/rRun/jpush.git’
+    s.dependency "XY_JPUSH"
 end
