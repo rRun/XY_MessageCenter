@@ -28,6 +28,7 @@ static NSString *MESSAGE_RECIVE= @"messageSuccess";
 @property (nonatomic,strong)NSString *currentAlias;//推送的别名
 @property (nonatomic,strong)NSArray *pushGroups;//设置群推，jpush将设置tags，gcm将设置topics
 
+
 //单例
 +(instancetype)defaultMessageCenter;
 

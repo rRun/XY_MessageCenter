@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "XY_MessageCenter"
   s.version      = "0.0.1"
-  s.summary      = "A short description of XY_MessageCenter."
+  s.summary      = "XY_MessageCenter"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                    XY_MessageCenter，封装了jpush,gcm,推送
                    DESC
 
   s.homepage     = "http://EXAMPLE/XY_MessageCenter"
@@ -64,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+   s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/XY_MessageCenter.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/rRun/XY_MessageCenter.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,11 +91,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "XY_MessageCenter/XY_MessageCenter/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-
+    s.public_header_files ＝"XY_MessageCenter/XY_MessageCenter/XY_MessageCenter.h"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -108,7 +109,9 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
+    s.resource_bundles = {
+        'XY_Gcm' => ['XY_MessageCenter/XY_MessageCenter/GoogleService-Info.plist']
+    }
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -118,7 +121,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-
+    s.frameworks = "AdSupport","UIKit","AudioToolbox"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
@@ -129,9 +132,10 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-
+    s.dependency "Firebase/Messaging"
+    s.dependency "XY_JPUSH", :git => ‘https://github.com/rRun/jpush.git’
 end

@@ -186,4 +186,5 @@ static XY_MessageCenter *defaultCenter;
     }else
         return nil;
 }
+
 @end
