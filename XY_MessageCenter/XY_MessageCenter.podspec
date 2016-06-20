@@ -30,15 +30,15 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'XY_MessageCenter/Classes/**/*'
+  s.source_files = 'XY_MessageCenter/Classes/*'
   s.public_header_files ="XY_MessageCenter/Classes/XY_MessageCenter.h"
   s.resource_bundles = {
      'XY_MessageCenter' => ['XY_MessageCenter/Assets/GoogleService-Info.plist']
   }
-
+    s.libraries = "z"
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-    s.frameworks = "AdSupport","UIKit","AudioToolbox"
+    s.frameworks = "AdSupport","UIKit","AudioToolbox", "CFNetwork","CoreFoundation", "CoreTelephony","SystemConfiguration", "CoreGraphics","Foundation", "Security"
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency "Firebase/Messaging"
     s.dependency "XY_JPUSH"

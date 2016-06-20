@@ -1,9 +1,9 @@
 {
   "name": "XY_MessageCenter",
-  "version": "0.1.0",
-  "summary": "A short description of XY_MessageCenter.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/XY_MessageCenter",
+  "version": "0.0.1",
+  "summary": "XY_MessageCenter",
+  "description": "XY_MessageCenter，封装了jpush,gcm,推送",
+  "homepage": "https://github.com/rRun/XY_MessageCenter",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,30 @@
     "hexy": "hexy@cdfortis.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/XY_MessageCenter.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/rRun/XY_MessageCenter.git",
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
-  "source_files": "XY_MessageCenter/Classes/**/*"
+  "source_files": "XY_MessageCenter/Classes/**/*",
+  "public_header_files": "XY_MessageCenter/Classes/XY_MessageCenter.h",
+  "resource_bundles": {
+    "XY_MessageCenter": [
+      "XY_MessageCenter/Assets/GoogleService-Info.plist"
+    ]
+  },
+  "frameworks": [
+    "AdSupport",
+    "UIKit",
+    "AudioToolbox"
+  ],
+  "dependencies": {
+    "Firebase/Messaging": [
+
+    ],
+    "XY_JPUSH": [
+
+    ]
+  }
 }
