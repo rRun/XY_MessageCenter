@@ -43,9 +43,9 @@ Pod::Spec.new do |s|
     s.frameworks = "AdSupport","UIKit","AudioToolbox", "CFNetwork","CoreFoundation", "CoreTelephony","SystemConfiguration", "CoreGraphics","Foundation", "Security"
     s.libraries = "z"
   # s.dependency 'AFNetworking', '~> 2.3'
-    s.dependency "Firebase/Messaging"
+   # s.dependency "Firebase/Messaging"
   #  s.dependency "XY_JPUSH"
-  #  因为该混用framework,.a库混用出现问题，只能手动倒入.a库
+  #  因为该混用framework,.a库混用出现问题，只能手动倒入.a库,framework
 
     # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 end

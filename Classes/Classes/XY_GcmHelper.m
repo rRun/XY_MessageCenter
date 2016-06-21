@@ -8,9 +8,9 @@
 
 #import "XY_GcmHelper.h"
 
-@import Firebase;
-@import FirebaseInstanceID;
-@import FirebaseMessaging;
+#import "Firebase/Firebase.h"
+#import "FirebaseMessaging/FIRMessaging.h"
+#import "FirebaseInstanceID/FIRInstanceID.h"
 
 #import "XY_MessageCenter.h"
 
