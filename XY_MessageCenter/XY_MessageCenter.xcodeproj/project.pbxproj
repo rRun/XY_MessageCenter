@@ -14,9 +14,6 @@
 		EAD0EF6A1D18E1A100DF1AEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD0EF681D18E1A100DF1AEA /* Main.storyboard */; };
 		EAD0EF6C1D18E1A100DF1AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD0EF6B1D18E1A100DF1AEA /* Assets.xcassets */; };
 		EAD0EF6F1D18E1A100DF1AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD0EF6D1D18E1A100DF1AEA /* LaunchScreen.storyboard */; };
-		EAD0EF7B1D18E33600DF1AEA /* XY_MessageCenter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EAD0EF7A1D18E33600DF1AEA /* XY_MessageCenter.podspec */; };
-		EAD0EF7E1D18E34900DF1AEA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EAD0EF7C1D18E34900DF1AEA /* LICENSE */; };
-		EAD0EF831D18E50000DF1AEA /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = EAD0EF821D18E50000DF1AEA /* Classes */; };
 		EAD0EF851D18E53300DF1AEA /* libjpush-ios-2.1.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD0EF841D18E53300DF1AEA /* libjpush-ios-2.1.7.a */; };
 /* End PBXBuildFile section */
 
@@ -34,10 +31,6 @@
 		EAD0EF6B1D18E1A100DF1AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD0EF6E1D18E1A100DF1AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAD0EF701D18E1A100DF1AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAD0EF7A1D18E33600DF1AEA /* XY_MessageCenter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XY_MessageCenter.podspec; sourceTree = "<group>"; };
-		EAD0EF7C1D18E34900DF1AEA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EAD0EF7D1D18E34900DF1AEA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		EAD0EF821D18E50000DF1AEA /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		EAD0EF841D18E53300DF1AEA /* libjpush-ios-2.1.7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libjpush-ios-2.1.7.a"; path = "../Classes/Lib/libjpush-ios-2.1.7.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,10 +111,6 @@
 		EAD0EF791D18E32900DF1AEA /* PodSpec */ = {
 			isa = PBXGroup;
 			children = (
-				EAD0EF821D18E50000DF1AEA /* Classes */,
-				EAD0EF7C1D18E34900DF1AEA /* LICENSE */,
-				EAD0EF7D1D18E34900DF1AEA /* README.md */,
-				EAD0EF7A1D18E33600DF1AEA /* XY_MessageCenter.podspec */,
 			);
 			name = PodSpec;
 			sourceTree = "<group>";
@@ -188,10 +177,7 @@
 			files = (
 				EAD0EF6F1D18E1A100DF1AEA /* LaunchScreen.storyboard in Resources */,
 				EAD0EF6C1D18E1A100DF1AEA /* Assets.xcassets in Resources */,
-				EAD0EF7B1D18E33600DF1AEA /* XY_MessageCenter.podspec in Resources */,
-				EAD0EF831D18E50000DF1AEA /* Classes in Resources */,
 				EAD0EF6A1D18E1A100DF1AEA /* Main.storyboard in Resources */,
-				EAD0EF7E1D18E34900DF1AEA /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

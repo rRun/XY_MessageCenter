@@ -30,14 +30,14 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'XY_MessageCenter/Classes/**/*','XY_MessageCenter/lib/*.h'
-  s.preserve_paths = "XY_MessageCenter/lib/libjpush-ios-2.1.7.a"
-  s.vendored_libraries = "XY_MessageCenter/lib/*.a"
+  s.source_files = 'Classes/Classes/**/*','Classes/Lib/*.h'
+  s.preserve_paths = "Classes/Lib/libjpush-ios-2.1.7.a"
+  s.vendored_libraries = "Classes/Lib/libjpush-ios-2.1.7.a"
   s.resource_bundles = {
-    'XY_MessageCenter' => ['XY_MessageCenter/Assets/*']
+    'XY_MessageCenter' => ['Classes/Assets/*']
   }
 
-  # s.public_header_files = 'XY_MessageCenter/Classes/**/*.h'
+    s.public_header_files = 'Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.frameworks = "AdSupport","UIKit","AudioToolbox", "CFNetwork","CoreFoundation", "CoreTelephony","SystemConfiguration", "CoreGraphics","Foundation", "Security"
     s.libraries = "z"
