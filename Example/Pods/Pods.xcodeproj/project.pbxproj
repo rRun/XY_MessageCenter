@@ -61,6 +61,7 @@
 		EAD0EF411D18D34C00DF1AEA /* XY_JpushHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XY_JpushHelper.m; sourceTree = "<group>"; };
 		EAD0EF421D18D34C00DF1AEA /* XY_MessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XY_MessageCenter.h; sourceTree = "<group>"; };
 		EAD0EF431D18D34C00DF1AEA /* XY_MessageCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XY_MessageCenter.m; sourceTree = "<group>"; };
+		EAD0EF521D18D74600DF1AEA /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
 		F648DF500468F9649DBA4F757D6B4364 /* XY_MessageCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XY_MessageCenter.xcconfig; sourceTree = "<group>"; };
 		F84764B1161FF0F52DD8A79D0DA0D7CB /* XY_MessageCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XY_MessageCenter.modulemap; sourceTree = "<group>"; };
 		FA936997E5C469C4E3B60D48478F9321 /* Pods-XY_MessageCenter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XY_MessageCenter_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 		0A0E5053444490D49DC143E8D5AAE685 /* XY_MessageCenter */ = {
 			isa = PBXGroup;
 			children = (
+				EAD0EF521D18D74600DF1AEA /* lib */,
 				269B8AD1CB56C16C8D73F348E45C027F /* Classes */,
 			);
 			path = XY_MessageCenter;

@@ -2,5 +2,6 @@ use_frameworks!
 target 'XY_MessageCenter_Tests' do
   pod 'XY_MessageCenter', :path => '../'
   
-  
+  pod 'Firebase/Messaging'
+  pod 'Firebase/XY_JPUSH'
 end

@@ -30,16 +30,19 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'XY_MessageCenter/Classes/**/*'
-  
-    s.resource_bundles = {
-        'XY_MessageCenter' => ['XY_MessageCenter/Assets/*']
-    }
+  s.source_files = 'XY_MessageCenter/Classes/**/*','XY_MessageCenter/lib/*.h'
+  s.preserve_paths = "lib/libjpush-ios-2.1.7.a"
+  s.vendored_libraries = "lib/*.a"
+  s.resource_bundles = {
+    'XY_MessageCenter' => ['XY_MessageCenter/Assets/*']
+  }
 
-    s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'XY_MessageCenter/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.frameworks = "AdSupport","UIKit","AudioToolbox", "CFNetwork","CoreFoundation", "CoreTelephony","SystemConfiguration", "CoreGraphics","Foundation", "Security"
+    s.libraries = "z"
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency "Firebase/Messaging"
-    s.dependency "XY_JPUSH"
+  #  s.dependency "XY_JPUSH"
+  #  因为该混用framework,.a库混用出现问题，只能手动倒入.a库
 end
