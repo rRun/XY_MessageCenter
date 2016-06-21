@@ -48,7 +48,6 @@
 		D3B23A8B2E2ED0F5727FFE1900F876B7 /* Pods-XY_MessageCenter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XY_MessageCenter-acknowledgements.plist"; sourceTree = "<group>"; };
 		D57A7D6AE404A0C93E2CD98125884D98 /* XY_MessageCenter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XY_MessageCenter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E5F36EC53F9345D6B98CEBFB75F492 /* ResourceBundle-XY_MessageCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XY_MessageCenter-Info.plist"; sourceTree = "<group>"; };
-		EAD0EF761D18E2F900DF1AEA /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		F305BA0DBE34320FDD5FFA3B7CC85CE8 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
 		F3E563FB976D944B180FC9D22EF1FF3E /* Pods-XY_MessageCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XY_MessageCenter.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -218,7 +217,6 @@
 		85DD48450431A9DB2FA5171C6A3BFB06 /* XY_MessageCenter */ = {
 			isa = PBXGroup;
 			children = (
-				EAD0EF761D18E2F900DF1AEA /* Classes */,
 				BFCC6FD763B0EA04D3EE60665F0431BB /* Support Files */,
 			);
 			name = XY_MessageCenter;

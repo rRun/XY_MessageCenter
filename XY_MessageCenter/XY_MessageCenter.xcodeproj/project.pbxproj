@@ -16,7 +16,8 @@
 		EAD0EF6F1D18E1A100DF1AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD0EF6D1D18E1A100DF1AEA /* LaunchScreen.storyboard */; };
 		EAD0EF7B1D18E33600DF1AEA /* XY_MessageCenter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EAD0EF7A1D18E33600DF1AEA /* XY_MessageCenter.podspec */; };
 		EAD0EF7E1D18E34900DF1AEA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EAD0EF7C1D18E34900DF1AEA /* LICENSE */; };
-		EAD0EF7F1D18E34900DF1AEA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EAD0EF7D1D18E34900DF1AEA /* README.md */; };
+		EAD0EF831D18E50000DF1AEA /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = EAD0EF821D18E50000DF1AEA /* Classes */; };
+		EAD0EF851D18E53300DF1AEA /* libjpush-ios-2.1.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD0EF841D18E53300DF1AEA /* libjpush-ios-2.1.7.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		EAD0EF7A1D18E33600DF1AEA /* XY_MessageCenter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XY_MessageCenter.podspec; sourceTree = "<group>"; };
 		EAD0EF7C1D18E34900DF1AEA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EAD0EF7D1D18E34900DF1AEA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EAD0EF821D18E50000DF1AEA /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		EAD0EF841D18E53300DF1AEA /* libjpush-ios-2.1.7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libjpush-ios-2.1.7.a"; path = "../Classes/Lib/libjpush-ios-2.1.7.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD0EF851D18E53300DF1AEA /* libjpush-ios-2.1.7.a in Frameworks */,
 				0135C1AB8B9112D961401E4B /* Pods_XY_MessageCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +57,7 @@
 		1EF6117E19FFC9DDBBBF8785 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAD0EF841D18E53300DF1AEA /* libjpush-ios-2.1.7.a */,
 				A206C79A2E1ADE0459215D5A /* Pods_XY_MessageCenter.framework */,
 			);
 			name = Frameworks;
@@ -113,6 +118,7 @@
 		EAD0EF791D18E32900DF1AEA /* PodSpec */ = {
 			isa = PBXGroup;
 			children = (
+				EAD0EF821D18E50000DF1AEA /* Classes */,
 				EAD0EF7C1D18E34900DF1AEA /* LICENSE */,
 				EAD0EF7D1D18E34900DF1AEA /* README.md */,
 				EAD0EF7A1D18E33600DF1AEA /* XY_MessageCenter.podspec */,
@@ -183,6 +189,7 @@
 				EAD0EF6F1D18E1A100DF1AEA /* LaunchScreen.storyboard in Resources */,
 				EAD0EF6C1D18E1A100DF1AEA /* Assets.xcassets in Resources */,
 				EAD0EF7B1D18E33600DF1AEA /* XY_MessageCenter.podspec in Resources */,
+				EAD0EF831D18E50000DF1AEA /* Classes in Resources */,
 				EAD0EF6A1D18E1A100DF1AEA /* Main.storyboard in Resources */,
 				EAD0EF7E1D18E34900DF1AEA /* LICENSE in Resources */,
 			);
@@ -245,7 +252,6 @@
 			files = (
 				EAD0EF671D18E1A100DF1AEA /* ViewController.m in Sources */,
 				EAD0EF641D18E1A100DF1AEA /* AppDelegate.m in Sources */,
-				EAD0EF7F1D18E34900DF1AEA /* README.md in Sources */,
 				EAD0EF611D18E1A100DF1AEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -348,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
