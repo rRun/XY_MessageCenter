@@ -9,7 +9,7 @@
 #import "XY_JpushHelper.h"
 
 #import <UIKit/UIKit.h>
-#import <XY_JPUSH/JPUSHService.h>
+#import "JPUSHService.h"
 #import <AdSupport/AdSupport.h>
 
 #import "XY_MessageCenter.h"
