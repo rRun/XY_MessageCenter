@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'XY_MessageCenter_Example' do
+  pod 'XY_MessageCenter', :path => '../'
+  pod 'Firebase/Messaging'
+  target 'XY_MessageCenter_Tests' do
+    inherit! :search_paths
+    
+  end
+end

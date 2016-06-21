@@ -1,0 +1,48 @@
+{
+  "name": "XY_MessageCenter",
+  "version": "0.1.0",
+  "summary": "XY_MessageCenter.",
+  "description": "XY_MessageCenter，封装了jpush,gcm,推送.",
+  "homepage": "https://github.com/rRun/XY_MessageCenter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hexy": "hexy@cdfortis.com"
+  },
+  "source": {
+    "git": "https://github.com/rRun/XY_MessageCenter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "XY_MessageCenter/Classes/**/*",
+    "XY_MessageCenter/Lib/**/*.h"
+  ],
+  "public_header_files": "XY_MessageCenter/Classes/XY_MessageCenter.h",
+  "frameworks": [
+    "UIKit",
+    "CFNetwork",
+    "CoreFoundation",
+    "CoreTelephony",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "Foundation",
+    "Security"
+  ],
+  "libraries": "z",
+  "resource_bundles": {
+    "XY_MessageCenter": [
+      "XY_MessageCenter/Assets/*"
+    ]
+  },
+  "vendored_libraries": "XY_MessageCenter/Lib/libjpush-ios-2.1.7.a",
+  "dependencies": {
+    "Firebase/Messaging": [
+
+    ]
+  }
+}
