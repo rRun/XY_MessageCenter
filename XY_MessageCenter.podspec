@@ -30,9 +30,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'Classes/Classes/**/*','Classes/Lib/*.h'
-  s.preserve_paths = "Classes/Lib/libjpush-ios-2.1.7.a"
-  s.vendored_libraries = "Classes/Lib/libjpush-ios-2.1.7.a"
+  s.source_files = 'Classes/Classes/**/*','Classes/Lib/**/*.h'
+  s.preserve_paths = "Classes/Lib/**/*"
+  s.vendored_frameworks = "Classes/Lib/**/*.framework"
+    s.vendored_libraries = "Classes/Lib/XY_JPUSH/libjpush-ios-2.1.7.a"
   s.resource_bundles = {
     'XY_MessageCenter' => ['Classes/Assets/*']
   }
@@ -45,4 +46,6 @@ Pod::Spec.new do |s|
     s.dependency "Firebase/Messaging"
   #  s.dependency "XY_JPUSH"
   #  因为该混用framework,.a库混用出现问题，只能手动倒入.a库
+
+    # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 end
