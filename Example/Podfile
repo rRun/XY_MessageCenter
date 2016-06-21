@@ -1,18 +1,6 @@
-#use_frameworks!
-
-target 'XY_MessageCenter_Example' do
+use_frameworks!
+target 'XY_MessageCenter_Tests' do
   pod 'XY_MessageCenter', :path => '../'
-  #gcm推送库
-  pod ‘Firebase/Messaging’
-  #jpush推送库［私有］
-  pod ‘XY_JPUSH’
   
-  target 'XY_MessageCenter_Tests' do
-    inherit! :search_paths
-    #gcm推送库
-    pod ‘Firebase/Messaging’
-    #jpush推送库［私有］
-    pod ‘XY_JPUSH’
-    
-  end
+  
 end

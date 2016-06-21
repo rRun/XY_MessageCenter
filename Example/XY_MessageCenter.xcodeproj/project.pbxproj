@@ -7,78 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
-		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* XY_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* XY_AppDelegate.m */; };
-		6003F5A7195388D20070C39A /* XY_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* XY_ViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		914A96CBE4C357C3D2976FB3 /* libPods-XY_MessageCenter_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 019AA2C6941EB0E53B99C3BA /* libPods-XY_MessageCenter_Example.a */; };
-		B2763F9FECE1CDEC927F1C55 /* libPods-XY_MessageCenter_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C3342D4A44CD28149AED13 /* libPods-XY_MessageCenter_Tests.a */; };
+		CA14C144CD9755646C6BDE67 /* Pods_XY_MessageCenter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2799A6122400C4CE49EB4FEB /* Pods_XY_MessageCenter_Tests.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = XY_MessageCenter;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		019AA2C6941EB0E53B99C3BA /* libPods-XY_MessageCenter_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XY_MessageCenter_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		01A7DA5089AD25AEDEB73919 /* Pods-XY_MessageCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XY_MessageCenter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XY_MessageCenter_Example/Pods-XY_MessageCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		13C3342D4A44CD28149AED13 /* libPods-XY_MessageCenter_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XY_MessageCenter_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5550F698AC552A905E0557EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* XY_MessageCenter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XY_MessageCenter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2799A6122400C4CE49EB4FEB /* Pods_XY_MessageCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XY_MessageCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FF58DBE4F360FF2348EE9B /* Pods-XY_MessageCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XY_MessageCenter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XY_MessageCenter_Tests/Pods-XY_MessageCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		354877E08BE2EA56B3F6C88D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		578A1FA834326B784AB3A5F5 /* Pods-XY_MessageCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XY_MessageCenter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XY_MessageCenter_Tests/Pods-XY_MessageCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* XY_MessageCenter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XY_MessageCenter-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* XY_MessageCenter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XY_MessageCenter-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* XY_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XY_AppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* XY_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XY_AppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* XY_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XY_ViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* XY_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XY_ViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* XY_MessageCenter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XY_MessageCenter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B2B9E613F91FA1370F6C9ECC /* XY_MessageCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XY_MessageCenter.podspec; path = ../XY_MessageCenter.podspec; sourceTree = "<group>"; };
-		C2C9EB8130E6277A4737244F /* Pods-XY_MessageCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XY_MessageCenter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XY_MessageCenter_Tests/Pods-XY_MessageCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C64FD9649F310D5BE0AA3A42 /* Pods-XY_MessageCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XY_MessageCenter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XY_MessageCenter_Example/Pods-XY_MessageCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D51F21DEF75CBE67524BDD85 /* Pods-XY_MessageCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XY_MessageCenter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XY_MessageCenter_Tests/Pods-XY_MessageCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D68401043BB74C016C678502 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9BE8367952C337252EA2923D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B8B1E6440237BDB33504B2B1 /* XY_MessageCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XY_MessageCenter.podspec; path = ../XY_MessageCenter.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6003F587195388D20070C39A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				914A96CBE4C357C3D2976FB3 /* libPods-XY_MessageCenter_Example.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6003F5AB195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,29 +41,36 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				B2763F9FECE1CDEC927F1C55 /* libPods-XY_MessageCenter_Tests.a in Frameworks */,
+				CA14C144CD9755646C6BDE67 /* Pods_XY_MessageCenter_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4880067942833DD1D7B73B5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				578A1FA834326B784AB3A5F5 /* Pods-XY_MessageCenter_Tests.debug.xcconfig */,
+				29FF58DBE4F360FF2348EE9B /* Pods-XY_MessageCenter_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for XY_MessageCenter */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				BBDF29DB8AAB62B94D54178C /* Pods */,
+				4880067942833DD1D7B73B5B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* XY_MessageCenter_Example.app */,
 				6003F5AE195388D20070C39A /* XY_MessageCenter_Tests.xctest */,
 			);
 			name = Products;
@@ -121,36 +83,9 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				019AA2C6941EB0E53B99C3BA /* libPods-XY_MessageCenter_Example.a */,
-				13C3342D4A44CD28149AED13 /* libPods-XY_MessageCenter_Tests.a */,
+				2799A6122400C4CE49EB4FEB /* Pods_XY_MessageCenter_Tests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6003F593195388D20070C39A /* Example for XY_MessageCenter */ = {
-			isa = PBXGroup;
-			children = (
-				6003F59C195388D20070C39A /* XY_AppDelegate.h */,
-				6003F59D195388D20070C39A /* XY_AppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* XY_ViewController.h */,
-				6003F5A6195388D20070C39A /* XY_ViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
-			);
-			name = "Example for XY_MessageCenter";
-			path = XY_MessageCenter;
-			sourceTree = "<group>";
-		};
-		6003F594195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F595195388D20070C39A /* XY_MessageCenter-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* XY_MessageCenter-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6003F5B5195388D20070C39A /* Tests */ = {
@@ -175,62 +110,30 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				B2B9E613F91FA1370F6C9ECC /* XY_MessageCenter.podspec */,
-				5550F698AC552A905E0557EC /* README.md */,
-				D68401043BB74C016C678502 /* LICENSE */,
+				B8B1E6440237BDB33504B2B1 /* XY_MessageCenter.podspec */,
+				9BE8367952C337252EA2923D /* README.md */,
+				354877E08BE2EA56B3F6C88D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		BBDF29DB8AAB62B94D54178C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C64FD9649F310D5BE0AA3A42 /* Pods-XY_MessageCenter_Example.debug.xcconfig */,
-				01A7DA5089AD25AEDEB73919 /* Pods-XY_MessageCenter_Example.release.xcconfig */,
-				C2C9EB8130E6277A4737244F /* Pods-XY_MessageCenter_Tests.debug.xcconfig */,
-				D51F21DEF75CBE67524BDD85 /* Pods-XY_MessageCenter_Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* XY_MessageCenter_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "XY_MessageCenter_Example" */;
-			buildPhases = (
-				439F0FC10C1197648BBDDB6F /* [CP] Check Pods Manifest.lock */,
-				6003F586195388D20070C39A /* Sources */,
-				6003F587195388D20070C39A /* Frameworks */,
-				6003F588195388D20070C39A /* Resources */,
-				FD7AD79881AC5F0E62203F87 /* [CP] Embed Pods Frameworks */,
-				F9B6DFDCDAFE446693DB79EB /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = XY_MessageCenter_Example;
-			productName = XY_MessageCenter;
-			productReference = 6003F58A195388D20070C39A /* XY_MessageCenter_Example.app */;
-			productType = "com.apple.product-type.application";
-		};
 		6003F5AD195388D20070C39A /* XY_MessageCenter_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "XY_MessageCenter_Tests" */;
 			buildPhases = (
-				BEEC007BFC292F00830A6397 /* [CP] Check Pods Manifest.lock */,
+				B4D697B0494F60A538153E02 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				070202E3AA7D25856948FA37 /* [CP] Embed Pods Frameworks */,
-				AF656658347E13C1D122608F /* [CP] Copy Pods Resources */,
+				77C4DBFBDF8D2B4ABB67DE21 /* [CP] Embed Pods Frameworks */,
+				4BCE643AFAC39A838B5ADD2B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
 			name = XY_MessageCenter_Tests;
 			productName = XY_MessageCenterTests;
@@ -265,23 +168,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* XY_MessageCenter_Example */,
 				6003F5AD195388D20070C39A /* XY_MessageCenter_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6003F588195388D20070C39A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6003F5AC195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,37 +185,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		070202E3AA7D25856948FA37 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XY_MessageCenter_Tests/Pods-XY_MessageCenter_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		439F0FC10C1197648BBDDB6F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		AF656658347E13C1D122608F /* [CP] Copy Pods Resources */ = {
+		4BCE643AFAC39A838B5ADD2B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,7 +200,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XY_MessageCenter_Tests/Pods-XY_MessageCenter_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BEEC007BFC292F00830A6397 /* [CP] Check Pods Manifest.lock */ = {
+		77C4DBFBDF8D2B4ABB67DE21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XY_MessageCenter_Tests/Pods-XY_MessageCenter_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D697B0494F60A538153E02 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,49 +230,9 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F9B6DFDCDAFE446693DB79EB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XY_MessageCenter_Example/Pods-XY_MessageCenter_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FD7AD79881AC5F0E62203F87 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XY_MessageCenter_Example/Pods-XY_MessageCenter_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6003F586195388D20070C39A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F59E195388D20070C39A /* XY_AppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* XY_ViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6003F5AA195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,23 +243,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* XY_MessageCenter_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -507,43 +328,10 @@
 			};
 			name = Release;
 		};
-		6003F5C0195388D20070C39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C64FD9649F310D5BE0AA3A42 /* Pods-XY_MessageCenter_Example.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "XY_MessageCenter/XY_MessageCenter-Prefix.pch";
-				INFOPLIST_FILE = "XY_MessageCenter/XY_MessageCenter-Info.plist";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		6003F5C1195388D20070C39A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01A7DA5089AD25AEDEB73919 /* Pods-XY_MessageCenter_Example.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "XY_MessageCenter/XY_MessageCenter-Prefix.pch";
-				INFOPLIST_FILE = "XY_MessageCenter/XY_MessageCenter-Info.plist";
-				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2C9EB8130E6277A4737244F /* Pods-XY_MessageCenter_Tests.debug.xcconfig */;
+			baseConfigurationReference = 578A1FA834326B784AB3A5F5 /* Pods-XY_MessageCenter_Tests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -565,9 +353,8 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D51F21DEF75CBE67524BDD85 /* Pods-XY_MessageCenter_Tests.release.xcconfig */;
+			baseConfigurationReference = 29FF58DBE4F360FF2348EE9B /* Pods-XY_MessageCenter_Tests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -591,15 +378,6 @@
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
 				6003F5BE195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "XY_MessageCenter_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6003F5C0195388D20070C39A /* Debug */,
-				6003F5C1195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
