@@ -7,6 +7,9 @@
 //
 
 #import "XY_ViewController.h"
+@import Firebase;
+@import FirebaseInstanceID;
+@import FirebaseMessaging;
 
 @interface XY_ViewController ()
 

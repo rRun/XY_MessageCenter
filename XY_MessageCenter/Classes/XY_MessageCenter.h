@@ -17,6 +17,7 @@ typedef NS_ENUM(NSInteger,XY_PushType) {
 @protocol XY_MessageCenterDesDelegate;
 
 static NSString *MESSAGE_RECIVE= @"messageSuccess";
+static NSString *MESSAGE_LOGIN= @"messageSuccessLOGIN";
 
 @interface XY_MessageCenter : NSObject
 
@@ -38,6 +39,7 @@ static NSString *MESSAGE_RECIVE= @"messageSuccess";
 -(void)register:(NSData *)deviceToken;
 //［jpush必须实现］根据别名登录，如果alias为空，则设置为默认别名
 -(void)loginWithAlias:(NSString *)alias;
+-(void)loginWithAlias:(NSString *)alias finishBlock:(void (^)(NSString*,int))block;
 //设置推送群组
 -(void)setPushGroups:(NSArray *)pushGroups;
 
@@ -61,6 +63,9 @@ static NSString *MESSAGE_RECIVE= @"messageSuccess";
 
 //错误
 -(void)messageCenter:(XY_MessageCenter *)center WithError:(NSError *)error;
+
+//登录成功
+-(void)messageCenter:(XY_MessageCenter *)center didLoginWIthInfo:(NSDictionary *)info;
 
 @end
 

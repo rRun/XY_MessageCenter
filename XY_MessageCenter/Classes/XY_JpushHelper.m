@@ -9,8 +9,8 @@
 #import "XY_JpushHelper.h"
 
 #import <UIKit/UIKit.h>
-#import "JPUSHService.h"
 #import <AdSupport/AdSupport.h>
+#import "JPUSHService.h"
 
 #import "XY_MessageCenter.h"
 
@@ -79,8 +79,14 @@ static int setAliasCount = 0;//如果设置alias超过20次，就停止设置
             NSArray *sortDesc = @[[[NSSortDescriptor alloc] initWithKey:nil ascending:YES]];
             NSArray *sortSetArray = [tags sortedArrayUsingDescriptors:sortDesc];
             self.currentTags = sortSetArray;
-        }else
+        }else{
             self.currentAlias= alias;
+            
+            if ([[XY_MessageCenter defaultMessageCenter].delegate respondsToSelector:@selector(messageCenter:didLoginWIthInfo:)]) {
+                [[XY_MessageCenter defaultMessageCenter].delegate messageCenter:[XY_MessageCenter defaultMessageCenter] didLoginWIthInfo:nil];
+                [[NSNotificationCenter defaultCenter]postNotificationName:MESSAGE_LOGIN object:nil];
+            }
+        }
         
         setAliasCount = 0;//设置标志
         

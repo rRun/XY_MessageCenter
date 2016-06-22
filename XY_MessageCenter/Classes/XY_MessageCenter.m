@@ -69,7 +69,15 @@ static XY_MessageCenter *defaultCenter;
         [jpushHelper loginWithAlias:alias];
     }
 }
-
+-(void)loginWithAlias:(NSString *)alias finishBlock:(void (^)(NSString*,int))block{
+    if (self.pushType == PUSH_VIA_GCM && gcmHelper) {
+        block(alias,0);
+        return;
+    }else if (self.pushType == PUSH_VIA_JPUSH && jpushHelper){
+        [jpushHelper loginWithAlias:alias];
+        block(alias,0);
+    }
+}
 //设置推送群组
 -(void)setPushGroups:(NSArray *)pushGroups{
     _pushGroups = pushGroups;

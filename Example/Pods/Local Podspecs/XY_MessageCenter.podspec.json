@@ -44,5 +44,9 @@
     "Firebase/Messaging": [
 
     ]
+  },
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(inherited) ${PODS_ROOT}/Firebase/Headers ${PODS_ROOT}/Headers/Public/Firebase ${PODS_ROOT}/Headers/Public ${PODS_ROOT}/Headers/Public/Firebase ${PODS_ROOT}/Headers/Public/FirebaseAnalytics ${PODS_ROOT}/Headers/Public/FirebaseInstanceID ${PODS_ROOT}/Headers/Public/FirebaseMessaging ${PODS_ROOT}/Headers/Public/GoogleIPhoneUtilities ${PODS_ROOT}/Headers/Public/GoogleInterchangeUtilities ${PODS_ROOT}/Headers/Public/GoogleSymbolUtilities ${PODS_ROOT}/Headers/Public/GoogleUtilities",
+    "FRAMEWORKS_SEARCH_PATHS": "$(inherited)/**"
   }
 }
