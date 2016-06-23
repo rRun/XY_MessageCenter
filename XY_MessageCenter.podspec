@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = {:git => "https://github.com/rRun/XY_MessageCenter.git", :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'XY_MessageCenter/Classes/**/*','XY_MessageCenter/Lib/**/*.h'
   s.public_header_files = 'XY_MessageCenter/Classes/XY_MessageCenter.h'
