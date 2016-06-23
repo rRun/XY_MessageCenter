@@ -11,25 +11,26 @@
 		1BB02EAF4B0AA4BEE1D48F271476B82D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76834A9A4549254D9BB6DA12AFE547C /* Foundation.framework */; };
 		1F983F9BB7B1244FB2A1956CEF8413FB /* Pods-XY_MessageCenter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB908C872BC58EC7C53FBC12EE2308 /* Pods-XY_MessageCenter_Tests-dummy.m */; };
 		25FC91ABE374EB4D4800E6EDC953B8FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76834A9A4549254D9BB6DA12AFE547C /* Foundation.framework */; };
-		2AB1E903045CCE3A430FBD2480599380 /* XY_GcmHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6609751BC87A9A672A7A04BCE7376FFB /* XY_GcmHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3CAB588A96ED92E927C4A827C5B2B97E /* XY_JpushHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF8C7E0FD0B54C1132FED40517D29E /* XY_JpushHelper.m */; };
 		7F7583B398523F83B7E8937DA3CF957E /* XY_MessageCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D44976FD87B260D7F44602C6E85AC0C /* XY_MessageCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		864337FA7D38192FF021F0EB13836233 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F17ACC4C39492D546FE74A166FA6F63 /* GoogleService-Info.plist */; };
 		91E3FC9E5E611D5914CDEBEF693721CE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0D8B33A90E873E3E02DB5F596266A6 /* CoreTelephony.framework */; };
 		9234A47C7F004AAFEB04A2BA3169244D /* XY_MessageCenter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9042A15EBD1E7824634659D2C7D2436 /* XY_MessageCenter.bundle */; };
-		93B26879218661E478E56BE77B37F1A0 /* JPUSHService.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9C5503B13E631DFB50FAF14DF270C4 /* JPUSHService.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		94BE31536C29107357DB8A233597FCCF /* XY_JpushHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0259079CAB841ED602515A3C10466A2D /* XY_JpushHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9F17D6D40B640BDFE9ACF9B726350D63 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE39C6BB61681CD5F878BC36E2E75638 /* Security.framework */; };
 		A430F9D37CA8DF6753A8990952985CCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A5F50530CA0517B2FE956011240B04 /* CoreGraphics.framework */; };
-		B705534D472655F2C4A8D05F73483C1B /* XY_MessageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F9B466E1B90AE3F309DC8D10FEB63D /* XY_MessageCenter.m */; };
 		C1C299E49C40CD2367ECBFA15EC1B970 /* XY_MessageCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB6821468ED443B19692F0B1F2AE859 /* XY_MessageCenter-dummy.m */; };
 		C4F70D276723E08E3E4F92BAFEC433BF /* Pods-XY_MessageCenter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F92EFA2FAC1CE63902869ABAA0506136 /* Pods-XY_MessageCenter_Example-dummy.m */; };
 		C8B1D7861400009927EC684E7AAD2141 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F199260D0C01B50EF2A0056AB218ABD /* UIKit.framework */; };
 		C9F7DFB0693A0A586918249A97666E88 /* Pods-XY_MessageCenter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4489CDF63358573ED7DE9DE58E53E893 /* Pods-XY_MessageCenter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF19CB1C28B5B7D41DACFB16317F4E73 /* XY_GcmHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D5699513045D8704906F7A488C73396E /* XY_GcmHelper.m */; };
 		E6B06EB80C958104B839F5638E972781 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB5E21FE0F20599A0BD834D8830CC6E /* SystemConfiguration.framework */; };
 		E7174B841CD50D0EF33427F33F2090F9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 800396D3859BDAFE2D059B58C4235F04 /* CFNetwork.framework */; };
-		EE6EACB17191C4D062D9695EF502A140 /* XY_MessageCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 555C13B7743E525BDB93BD6AFD493559 /* XY_MessageCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA0FAC5C1D1BD5DB002EE8C1 /* libjpush-ios-2.1.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0FAC5B1D1BD5DB002EE8C1 /* libjpush-ios-2.1.7.a */; };
+		EA0FAC631D1BD5ED002EE8C1 /* XY_GcmHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC5D1D1BD5ED002EE8C1 /* XY_GcmHelper.h */; };
+		EA0FAC641D1BD5ED002EE8C1 /* XY_GcmHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC5E1D1BD5ED002EE8C1 /* XY_GcmHelper.m */; };
+		EA0FAC651D1BD5ED002EE8C1 /* XY_JpushHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC5F1D1BD5ED002EE8C1 /* XY_JpushHelper.h */; };
+		EA0FAC661D1BD5ED002EE8C1 /* XY_JpushHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC601D1BD5ED002EE8C1 /* XY_JpushHelper.m */; };
+		EA0FAC671D1BD5ED002EE8C1 /* XY_MessageCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC611D1BD5ED002EE8C1 /* XY_MessageCenter.h */; };
+		EA0FAC681D1BD5ED002EE8C1 /* XY_MessageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC621D1BD5ED002EE8C1 /* XY_MessageCenter.m */; };
+		EA0FAC6A1D1BD5FB002EE8C1 /* JPUSHService.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC691D1BD5FB002EE8C1 /* JPUSHService.h */; };
 		F4539D2926DAD6468D314DDF3B1BB17C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76834A9A4549254D9BB6DA12AFE547C /* Foundation.framework */; };
 		FC2F4F04DC1243C1EE5CCB96EF036E29 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6336CDD100B373971DDB5F8F00731153 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
@@ -52,7 +53,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0259079CAB841ED602515A3C10466A2D /* XY_JpushHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XY_JpushHelper.h; sourceTree = "<group>"; };
 		0FB5E21FE0F20599A0BD834D8830CC6E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		1100BE557583CDD7720E29E575D2DDE1 /* Pods-XY_MessageCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XY_MessageCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		18DABDC76EBDD5031F81130F1806A447 /* ResourceBundle-XY_MessageCenter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XY_MessageCenter-Info.plist"; sourceTree = "<group>"; };
@@ -72,13 +72,10 @@
 		48722DA9609F98639A9AB1DD0FBDFC04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DF18F7B3B11793BAC30E93F42E4B6D0 /* Pods-XY_MessageCenter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XY_MessageCenter_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4EBB908C872BC58EC7C53FBC12EE2308 /* Pods-XY_MessageCenter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XY_MessageCenter_Tests-dummy.m"; sourceTree = "<group>"; };
-		555C13B7743E525BDB93BD6AFD493559 /* XY_MessageCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XY_MessageCenter.h; sourceTree = "<group>"; };
 		5A40A6576D62CBB4F62ABF67190DC780 /* XY_MessageCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XY_MessageCenter.modulemap; sourceTree = "<group>"; };
 		5ACDBD894706F36CB357ECAF75C2A8AF /* XY_MessageCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XY_MessageCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5DEE544434BEA5456F1E107F3DEDFB /* Pods-XY_MessageCenter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XY_MessageCenter_Example-umbrella.h"; sourceTree = "<group>"; };
 		6336CDD100B373971DDB5F8F00731153 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		6609751BC87A9A672A7A04BCE7376FFB /* XY_GcmHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XY_GcmHelper.h; sourceTree = "<group>"; };
-		6B9C5503B13E631DFB50FAF14DF270C4 /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		6F199260D0C01B50EF2A0056AB218ABD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		73298E31679F6B51784EE3056C65F7DB /* Pods-XY_MessageCenter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XY_MessageCenter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		770348B624F78C074B2D5D17A27C5398 /* Pods-XY_MessageCenter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XY_MessageCenter_Example-resources.sh"; sourceTree = "<group>"; };
@@ -89,7 +86,6 @@
 		89CB577C01EDF4960AB62D60E707F501 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		913D6164F1559505A18A3602695FAC91 /* XY_MessageCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XY_MessageCenter-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99F9B466E1B90AE3F309DC8D10FEB63D /* XY_MessageCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XY_MessageCenter.m; sourceTree = "<group>"; };
 		9AB6821468ED443B19692F0B1F2AE859 /* XY_MessageCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XY_MessageCenter-dummy.m"; sourceTree = "<group>"; };
 		9D44976FD87B260D7F44602C6E85AC0C /* XY_MessageCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XY_MessageCenter-umbrella.h"; sourceTree = "<group>"; };
 		9F17ACC4C39492D546FE74A166FA6F63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -102,13 +98,18 @@
 		C76834A9A4549254D9BB6DA12AFE547C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CE39C6BB61681CD5F878BC36E2E75638 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		D217C7B6C48D74D948FE6B5D22999696 /* Pods-XY_MessageCenter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XY_MessageCenter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D5699513045D8704906F7A488C73396E /* XY_GcmHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XY_GcmHelper.m; sourceTree = "<group>"; };
 		D7B9704F3D44208833FE4A58C8B6B57A /* Pods-XY_MessageCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XY_MessageCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E12C553D5DCE53AD2373FC211AB0CA53 /* Pods-XY_MessageCenter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XY_MessageCenter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E51E9F38CC1409EFF91A8294EDF64FE6 /* libjpush-ios-2.1.7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libjpush-ios-2.1.7.a"; path = "XY_MessageCenter/Lib/libjpush-ios-2.1.7.a"; sourceTree = "<group>"; };
 		E9042A15EBD1E7824634659D2C7D2436 /* XY_MessageCenter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XY_MessageCenter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E973DE4B829CB1494882FFA38B0AFA2C /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
-		F0CF8C7E0FD0B54C1132FED40517D29E /* XY_JpushHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XY_JpushHelper.m; sourceTree = "<group>"; };
+		EA0FAC5B1D1BD5DB002EE8C1 /* libjpush-ios-2.1.7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libjpush-ios-2.1.7.a"; path = "Lib/libjpush-ios-2.1.7.a"; sourceTree = "<group>"; };
+		EA0FAC5D1D1BD5ED002EE8C1 /* XY_GcmHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XY_GcmHelper.h; path = ../../Classes/XY_GcmHelper.h; sourceTree = "<group>"; };
+		EA0FAC5E1D1BD5ED002EE8C1 /* XY_GcmHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XY_GcmHelper.m; path = ../../Classes/XY_GcmHelper.m; sourceTree = "<group>"; };
+		EA0FAC5F1D1BD5ED002EE8C1 /* XY_JpushHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XY_JpushHelper.h; path = ../../Classes/XY_JpushHelper.h; sourceTree = "<group>"; };
+		EA0FAC601D1BD5ED002EE8C1 /* XY_JpushHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XY_JpushHelper.m; path = ../../Classes/XY_JpushHelper.m; sourceTree = "<group>"; };
+		EA0FAC611D1BD5ED002EE8C1 /* XY_MessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XY_MessageCenter.h; path = ../../Classes/XY_MessageCenter.h; sourceTree = "<group>"; };
+		EA0FAC621D1BD5ED002EE8C1 /* XY_MessageCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XY_MessageCenter.m; path = ../../Classes/XY_MessageCenter.m; sourceTree = "<group>"; };
+		EA0FAC691D1BD5FB002EE8C1 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPUSHService.h; path = ../../Lib/JPUSHService.h; sourceTree = "<group>"; };
 		F2E3F68C29AC36663C4F81FE234FE9B4 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
 		F92EFA2FAC1CE63902869ABAA0506136 /* Pods-XY_MessageCenter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XY_MessageCenter_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BB02EAF4B0AA4BEE1D48F271476B82D /* Foundation.framework in Frameworks */,
+				EA0FAC5C1D1BD5DB002EE8C1 /* libjpush-ios-2.1.7.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +423,7 @@
 		B2431BC2BFF65E760D87546FA2B7A37E /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				6B9C5503B13E631DFB50FAF14DF270C4 /* JPUSHService.h */,
+				EA0FAC691D1BD5FB002EE8C1 /* JPUSHService.h */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -429,7 +431,7 @@
 		B32CF07F2AA96B665AEC76350C4436FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E51E9F38CC1409EFF91A8294EDF64FE6 /* libjpush-ios-2.1.7.a */,
+				EA0FAC5B1D1BD5DB002EE8C1 /* libjpush-ios-2.1.7.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -437,12 +439,12 @@
 		C181C5CDD7E266F84A18F6E4BFC89DEA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6609751BC87A9A672A7A04BCE7376FFB /* XY_GcmHelper.h */,
-				D5699513045D8704906F7A488C73396E /* XY_GcmHelper.m */,
-				0259079CAB841ED602515A3C10466A2D /* XY_JpushHelper.h */,
-				F0CF8C7E0FD0B54C1132FED40517D29E /* XY_JpushHelper.m */,
-				555C13B7743E525BDB93BD6AFD493559 /* XY_MessageCenter.h */,
-				99F9B466E1B90AE3F309DC8D10FEB63D /* XY_MessageCenter.m */,
+				EA0FAC5D1D1BD5ED002EE8C1 /* XY_GcmHelper.h */,
+				EA0FAC5E1D1BD5ED002EE8C1 /* XY_GcmHelper.m */,
+				EA0FAC5F1D1BD5ED002EE8C1 /* XY_JpushHelper.h */,
+				EA0FAC601D1BD5ED002EE8C1 /* XY_JpushHelper.m */,
+				EA0FAC611D1BD5ED002EE8C1 /* XY_MessageCenter.h */,
+				EA0FAC621D1BD5ED002EE8C1 /* XY_MessageCenter.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -504,6 +506,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				12E2C570B1DA81FDF09CD91A1318FBCD /* Pods-XY_MessageCenter_Example-umbrella.h in Headers */,
+				EA0FAC631D1BD5ED002EE8C1 /* XY_GcmHelper.h in Headers */,
+				EA0FAC671D1BD5ED002EE8C1 /* XY_MessageCenter.h in Headers */,
+				EA0FAC6A1D1BD5FB002EE8C1 /* JPUSHService.h in Headers */,
+				EA0FAC651D1BD5ED002EE8C1 /* XY_JpushHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,11 +517,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B26879218661E478E56BE77B37F1A0 /* JPUSHService.h in Headers */,
-				2AB1E903045CCE3A430FBD2480599380 /* XY_GcmHelper.h in Headers */,
-				94BE31536C29107357DB8A233597FCCF /* XY_JpushHelper.h in Headers */,
 				7F7583B398523F83B7E8937DA3CF957E /* XY_MessageCenter-umbrella.h in Headers */,
-				EE6EACB17191C4D062D9695EF502A140 /* XY_MessageCenter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,7 +648,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0FAC661D1BD5ED002EE8C1 /* XY_JpushHelper.m in Sources */,
+				EA0FAC641D1BD5ED002EE8C1 /* XY_GcmHelper.m in Sources */,
 				C4F70D276723E08E3E4F92BAFEC433BF /* Pods-XY_MessageCenter_Example-dummy.m in Sources */,
+				EA0FAC681D1BD5ED002EE8C1 /* XY_MessageCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,10 +659,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF19CB1C28B5B7D41DACFB16317F4E73 /* XY_GcmHelper.m in Sources */,
-				3CAB588A96ED92E927C4A827C5B2B97E /* XY_JpushHelper.m in Sources */,
 				C1C299E49C40CD2367ECBFA15EC1B970 /* XY_MessageCenter-dummy.m in Sources */,
-				B705534D472655F2C4A8D05F73483C1B /* XY_MessageCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
