@@ -46,5 +46,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(inherited) ${PODS_ROOT}/Firebase/Headers ${PODS_ROOT}/Headers/Public/Firebase ${PODS_ROOT}/Headers/Public ${PODS_ROOT}/Headers/Public/Firebase ${PODS_ROOT}/Headers/Public/FirebaseAnalytics ${PODS_ROOT}/Headers/Public/FirebaseInstanceID ${PODS_ROOT}/Headers/Public/FirebaseMessaging ${PODS_ROOT}/Headers/Public/GoogleIPhoneUtilities ${PODS_ROOT}/Headers/Public/GoogleInterchangeUtilities ${PODS_ROOT}/Headers/Public/GoogleSymbolUtilities ${PODS_ROOT}/Headers/Public/GoogleUtilities","FRAMEWORKS_SEARCH_PATHS" => "$(inherited)/**"}
+  #s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(inherited) ${PODS_ROOT}/Firebase/Headers ${PODS_ROOT}/Headers/Public/Firebase ${PODS_ROOT}/Headers/Public ${PODS_ROOT}/Headers/Public/Firebase ${PODS_ROOT}/Headers/Public/FirebaseAnalytics ${PODS_ROOT}/Headers/Public/FirebaseInstanceID ${PODS_ROOT}/Headers/Public/FirebaseMessaging ${PODS_ROOT}/Headers/Public/GoogleIPhoneUtilities ${PODS_ROOT}/Headers/Public/GoogleInterchangeUtilities ${PODS_ROOT}/Headers/Public/GoogleSymbolUtilities ${PODS_ROOT}/Headers/Public/GoogleUtilities","FRAMEWORKS_SEARCH_PATHS" => "$(inherited)/**"}
 end
